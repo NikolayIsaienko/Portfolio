@@ -1,0 +1,12 @@
+@mixin btn_hover {
+  &:hover {
+    background-image: none;
+    background-color: $main-color;
+  }
+}
+@mixin link_hover {
+  &:hover {
+    text-decoration: none;
+    color: $main-color;
+  }
+}
